@@ -11514,7 +11514,7 @@ body {
       rgba(0, 0, 0, 0.7) 75%,
       #000 100%
     ),
-    url("../assets/img/grey.jpg");
+    url("https://images.unsplash.com/photo-1714419990977-eb2fadb4632a?q=80&w=2788&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
   background-position: center;
   background-repeat: no-repeat;
   background-attachment: scroll;
@@ -11570,12 +11570,14 @@ body {
 
 .about-section {
   padding-top: 10rem;
-  background: linear-gradient(
+  background-color: whitesmoke;
+  color: black;
+  /* background: linear-gradient(
     to bottom,
     #000 0%,
     rgba(0, 0, 0, 0.9) 75%,
     rgba(0, 0, 0, 0.8) 100%
-  );
+  ); */
 }
 .about-section p {
   margin-bottom: 5rem;
