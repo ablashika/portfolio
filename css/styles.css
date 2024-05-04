@@ -11589,10 +11589,21 @@ body {
 .projects-section .featured-text {
   padding: 2rem;
 }
+ .featured-text-right {
+  padding: 2rem;
+  padding: 0 0 0 2rem;
+  border-right: 0.5rem solid #64a19d;
+}
 @media (min-width: 992px) {
   .projects-section .featured-text {
     padding: 0 0 0 2rem;
     border-left: 0.5rem solid #64a19d;
+  }
+
+  .featured-text-right {
+    padding: 2rem;
+    padding: 0 0 0 2rem;
+    border-right: 0.5rem solid #64a19d;
   }
 }
 .projects-section .project-text {
@@ -11680,3 +11691,50 @@ body {
 .footer {
   padding: 5rem 0;
 }
+
+
+
+
+
+
+
+.project .hover-content h4,
+.project .hover-content p {
+  color: none;
+}
+
+
+
+
+/* CSS for hover effect */
+.project .hover-content {
+  opacity: 0;
+}
+
+.project:hover .default-content {
+  background-color: #64a19d;
+}
+
+.project:hover .hover-content {
+  opacity: 1;
+  color: white;
+}
+
+.bg-transparent{
+  background-color: #64a19d;
+}
+
+
+.project:hover .hover-content {
+  opacity: 1;
+  margin: 0px;
+  top: 0%;
+  background-color: #64a19d;
+  transition: opacity 0.3s ease-in-out;
+}
+
+.project:hover   h4,
+.project:hover  p {
+  color: white;
+}
+
